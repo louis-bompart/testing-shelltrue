@@ -6,5 +6,5 @@ if (ps.error) {
   console.error("Error:", ps.error);
 }
 
-const whereNpm = spawnSync("where", ["npm"]);
+const whereNpm = spawnSync("where", ["npm.ps1"]);
 console.log("whereNpm:", whereNpm.stdout.toString());
