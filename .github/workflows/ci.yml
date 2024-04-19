@@ -8,4 +8,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20.12.2'
-      - run: node index.js
+      - run: |
+          npm i -g npm@latest
+          node index.js
